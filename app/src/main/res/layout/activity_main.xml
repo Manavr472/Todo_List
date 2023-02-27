@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#190138"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="195dp"
+            android:layout_height="195dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/todoicon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+
+            android:fontFamily="@font/comfortaa_bold"
+            android:gravity="center"
+            android:text="To-do list"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+
+        <ProgressBar
+            android:layout_width="32.5dp"
+            android:layout_height="32.5dp"
+            android:layout_marginTop="32.5dp"
+            android:backgroundTint="#AA00FF"
+            android:progressBackgroundTint="#AA00FF"
+            android:progressTint="#AA00FF" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
